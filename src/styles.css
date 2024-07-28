@@ -46,6 +46,94 @@ align-items: stretch;
 
 body{
     
-    background-color: silver;
+    background-color: #c3c6c9;
     text-align: center;
+}
+
+.Predictions {
+
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: lightgray;
+    
+
+}
+.Submit {
+    
+    padding: 10px;
+    
+}
+
+.Submit button{
+    border: none;
+    font-weight: 300;
+    font-size: medium;
+    color: white;
+    
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    background-color: rgb(12, 171, 245) ;
+}
+.Submit button:hover{
+   
+    background-color: rgb(75, 188, 253) ;
+}
+
+.container {
+    
+    display: inline-block;
+    border: 2px solid black;
+    padding: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(30, 130, 255);
+    
+}
+
+.textbox textarea {
+    width: 100%; /* Full width of its container */
+    min-width: 200px;
+    min-height: 100px;
+    max-width: 600px; /* Maximum width */
+    height: auto; /* Auto height based on content */
+    max-height: 300px; /* Maximum height */
+    border: 2px solid black;
+    
+}
+
+.examples{
+    border: 2px solid black;
+    padding: 10px;
+    max-width: 300px;
+    background-color: lightgray;
+    
+}
+
+.container-wrapper{
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+
+}
+.models{
+    border: 2px solid black;
+    padding: 10px;
+    max-width: 300px;
+    background-color: lightgray;
+    
+}
+
+.box{
+    border: 2px solid black;
+    padding: 10px;
+    max-width: 800px;
+    font-size: 28px;
+    background-color: lightgray;
+    margin: 0 auto;
 }
