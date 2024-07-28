@@ -1,10 +1,14 @@
-First start flask server: 
+Install neccassary libarays 
+pip install Flask Flask-Cors joblib nltk tqdm textblob scikit-learn
+
+npm install 
+
+First start the flask server: 
 
 cd flask_app
 python app.py
 
 Then in a seprate terminal
-
 Type npm start to start the website
 
 

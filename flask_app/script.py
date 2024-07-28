@@ -6,7 +6,8 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from tqdm.notebook import tqdm
 from textblob import TextBlob
 
-
+nltk.download('stopwords')
+nltk.download('punkt')
 # Define custom stopwords
 stop_words = set(stopwords.words('english'))
 negations = {"not", "n't", "no","never", "don't", "isn't"}
