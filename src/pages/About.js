@@ -4,7 +4,11 @@ export default function About(){
     return(
         <>
             <h1> Report</h1>
-            <iframe src={pdf} width="1000" height="700"></iframe>
+
+            <div className="iframe-container">
+                <iframe src={pdf} width="1000" height="900"></iframe>
+            </div>
+
         </>
     )
 }

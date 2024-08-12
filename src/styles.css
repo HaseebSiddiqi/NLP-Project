@@ -1,139 +1,148 @@
-body{
-    margin: 0
-}
-.nav{
-background-color: rgb(30, 130, 255);
-color: white;
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 2rem;
-padding: 0 1rem;
-align-items: stretch;
+body {
+    margin: 0;
+    background-color: #e0e3e7; 
+    color: #333; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
-.nav ul{
-    
+.nav {
+    background-color: #1e82ff; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    align-items: stretch;
+}
+
+.nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
     gap: 2rem;
-    font-size: 2rem;
-    
+    font-size: 1.5rem; 
 }
 
-.site-title{
-    font-size: 3rem;
+.site-title {
+    font-size: 2.5rem; 
+    font-weight: 600; 
 }
-.nav a{
-    
+
+.nav a {
     color: inherit;
     text-decoration: none;
     height: 100%;
     display: flex;
     align-items: center;
-    padding: .25rem;
+    padding: 0.25rem;
+    transition: background-color 0.3s ease; 
 }
 
-.nav li.active{
-    background-color: rgb(17, 120, 255);
-
-}
-.nav li:hover{
-    background-color: rgb(43, 142, 249);
+.nav li.active {
+    background-color: #1178ff; 
 }
 
-body{
-    
-    background-color: #c3c6c9;
-    text-align: center;
+.nav li:hover {
+    background-color: #2b8ef9;
 }
 
 .Predictions {
-
     display: inline-block;
-    border: 2px solid black;
+    border: 2px solid #333; 
     padding: 10px;
-    background-color: lightgray;
-    
-
+    background-color: #d3d2d2; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
+
 .Submit {
-    
     padding: 10px;
-    
 }
 
-.Submit button{
+.Submit button {
     border: none;
-    font-weight: 300;
-    font-size: medium;
+    font-weight: 400; 
+    font-size: 1rem; 
     color: white;
-    
     border-radius: 30px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-   
-    background-color: rgb(12, 171, 245) ;
+    padding: 10px 20px;
+    background-color: #0cabf5; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
 }
-.Submit button:hover{
-   
-    background-color: rgb(75, 188, 253) ;
+
+.Submit button:hover {
+    background-color: #4bbcf9;
 }
 
 .container {
-    
     display: inline-block;
-    border: 2px solid black;
-    padding: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
-    background-color: rgb(30, 130, 255);
-    
+    border: 2px solid #333; 
+    padding: 50px 100px; 
+    background-color: #1e82ff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .textbox textarea {
-    width: 100%; /* Full width of its container */
+    width: 100%; 
     min-width: 200px;
     min-height: 100px;
-    max-width: 600px; /* Maximum width */
-    height: auto; /* Auto height based on content */
-    max-height: 300px; /* Maximum height */
-    border: 2px solid black;
-    
+    max-width: 600px; 
+    height: auto; 
+    max-height: 300px;
+    border: 2px solid #333; 
+    border-radius: 5px;
+    padding: 10px; 
+    font-size: 1rem; 
 }
 
-.examples{
-    border: 2px solid black;
+.examples, .models, .box {
+    border: 2px solid #333; 
     padding: 10px;
-    max-width: 300px;
-    background-color: lightgray;
-    
+    background-color: #d3d2d2; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
-.container-wrapper{
+.examples, .models {
+    max-width: 300px;
+    font-size: 1.05rem;
+    background-color: #d3d2d2;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+.examples img, .models img {
+    width: 100%; 
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.box {
+    max-width: 800px;
+    font-size: 1.25rem;
+    margin: 0 auto;
+}
 
+.container-wrapper {
     display: flex;
     gap: 20px;
     justify-content: center;
     padding: 30px;
-
-}
-.models{
-    border: 2px solid black;
-    padding: 10px;
-    max-width: 300px;
-    background-color: lightgray;
     
 }
 
-.box{
-    border: 2px solid black;
-    padding: 10px;
-    max-width: 800px;
-    font-size: 28px;
-    background-color: lightgray;
-    margin: 0 auto;
+.iframe-container {
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    border-radius: 8px; /* Rounded corners for the shadow effect */
+}
+
+.iframe-container iframe {
+    display: block;
+    border: none; /* Removes default iframe border */
+    border-radius: 8px; /* Ensures iframe corners match the shadow */
 }
