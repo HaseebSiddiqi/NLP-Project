@@ -1,4 +1,11 @@
-Install neccassary libarays 
+
+[View the Report](https://github.com/HaseebSiddiqi/NLP-Project/blob/master/src/image/Sentiment%20Predictor.pdf)
+
+[View the Report](./docs/report.pdf)
+[View the Report](./docs/report.pdf)
+
+### To run 
+Install neccassary libraries  
 pip install Flask Flask-Cors joblib nltk tqdm textblob scikit-learn
 
 npm install 
