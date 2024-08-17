@@ -1,8 +1,8 @@
 
-![View the Report](https://github.com/HaseebSiddiqi/NLP-Project/blob/master/src/image/Sentiment%20Predictor.pdf)
+[View the Report](https://github.com/HaseebSiddiqi/NLP-Project/blob/master/src/image/Sentiment%20Predictor.pdf)
 
-![View the Report](https://github.com/HaseebSiddiqi/NLP-Project/blob/master/src/image/models.png)
-![View the Report](https://github.com/HaseebSiddiqi/NLP-Project/blob/master/src/image/models%20result.png)
+![Models](https://github.com/HaseebSiddiqi/NLP-Project/blob/master/src/image/models.png)
+![Model result](https://github.com/HaseebSiddiqi/NLP-Project/blob/master/src/image/models%20result.png)
 
 ### To run 
 Install neccassary libraries  
