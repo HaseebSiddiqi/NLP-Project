@@ -4,6 +4,7 @@ import Models from './pages/Models'
 import About from './pages/About'
 import NoPage from './pages/NoPage'
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 
 
@@ -22,6 +23,7 @@ function App() {
         </Routes>
       
     </div>
+    <Footer/>
     </>
   );
 }

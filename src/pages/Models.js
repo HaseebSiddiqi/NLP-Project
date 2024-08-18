@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-import svmImage from '../image/svm.png';
-import mlpImage from '../image/mlp.png';
-import lrImage from '../image/lr.png';
-import vadersImage from '../image/vaders.png';
-import textblobImage from '../image/textblob.png';
+
 
 export default function Models() {
     const [inputText, setInputText] = useState('');
@@ -92,16 +88,95 @@ export default function Models() {
             <div className='models'>
                 <h2> Model Accuracy</h2>
                 <h3> Logistic Regression</h3>
-                
-                <img src={lrImage} width={300}></img>
+                <p>LR Accuracy: 0.77</p>
+                <p>
+                    <strong>Negative: </strong>
+                    
+                    Precision: 0.76 | Recall: 0.81 | F1-Score: 0.78 
+                </p>
+                <p>
+                    <strong>Neutral: </strong>
+                    
+                    Precision: 0.71 | Recall: 0.66 | F1-Score: 0.69 
+                </p>
+                <p>
+                    <strong>Positive: </strong>
+                    
+                    Precision: 0.83 | Recall: 0.82 | F1-Score: 0.83 
+                </p>
+
                 <h3> Support Vector Machine</h3>
-                <img src={svmImage} width={300}></img>
+                <p>SVM Accuracy: 0.76</p>
+                <p>
+                    <strong>Negative: </strong>
+                    
+                    Precision: 0.76 | Recall: 0.79 | F1-Score: 0.77 
+                </p>
+                <p>
+                    <strong>Neutral: </strong>
+                    
+                    Precision: 0.68 | Recall: 0.69 | F1-Score: 0.68 
+                </p>
+                <p>
+                    <strong>Positive: </strong>
+                    
+                    Precision: 0.86 | Recall: 0.80 | F1-Score: 0.83 
+                </p>
                 <h3> Multi Layer Perceptron</h3>
-                <img src={mlpImage} width={300}></img>
+                <p>MLP Accuracy: 0.77</p>
+                <p>
+                    <strong>Negative: </strong>
+                    
+                    Precision: 0.77 | Recall: 0.80 | F1-Score: 0.78 
+                </p>
+                <p>
+                    <strong>Neutral: </strong>
+                    
+                    Precision: 0.70 | Recall: 0.68 | F1-Score: 0.69 
+                </p>
+                <p>
+                    <strong>Positive: </strong>
+                    
+                    Precision: 0.82 | Recall: 0.83 | F1-Score: 0.83 
+                </p>
+               
                 <h3> Vaders</h3>
-                <img src={vadersImage} width={300}></img>
+                <p>Vaders Accuracy: 0.66</p>
+                <p>
+                    <strong>Negative: </strong>
+                    
+                    Precision: 0.82 | Recall: 0.63 | F1-Score: 0.71 
+                </p>
+                <p>
+                    <strong>Neutral: </strong>
+                    
+                    Precision: 0.70 | Recall: 0.39 | F1-Score: 0.5 
+                </p>
+                <p>
+                    <strong>Positive: </strong>
+                   
+                    Precision: 0.57 | Recall: 0.96 | F1-Score: 0.72 
+                </p>
+                
+                
                 <h3> Text Blob</h3>
-                <img src={textblobImage} width={300}></img>
+                <p>Text Blob Accuracy: 0.55</p>
+                <p>
+                    <strong>Negative: </strong>
+                    
+                    Precision: 0.59 | Recall: 0.62 | F1-Score: 0.61 
+                </p>
+                <p>
+                    <strong>Neutral: </strong>
+                    
+                    Precision: 0.49 | Recall: 0.20 | F1-Score: 0.28 
+                </p>
+                <p>
+                    <strong>Positive: </strong>
+                    
+                    Precision: 0.54 | Recall: 0.84 | F1-Score: 0.66 
+                </p>
+                
                 
             </div>
             </div>
