@@ -1,5 +1,5 @@
 import Header from '../components/Header'
-import pdf from '../image/Sentiment Predictor (1).pdf';
+import pdf from '../image/Sentiment Predictor.pdf';
 export default function About(){
     return(
         <>
